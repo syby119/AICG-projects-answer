@@ -24,7 +24,7 @@ You may consult SCA documentation, Agent Skills, and open-source agent framework
 
 ## Tool selection
 
-CAD modeling must use SCA; see its [official repository and API documentation](https://github.com/PhySpace/SimpleCADAPI). The language model may be an online API, such as DeepSeek or GLM, or a local model. Choose your own interaction interface and model viewer; a custom 3D renderer is not required. Record software and model versions, run generated code in a restricted environment, and set an execution timeout.
+CAD modeling must use SCA; see its [official repository and API documentation](https://github.com/PhySpace/SimpleCADAPI). Use **GLM-5.3-Flash** to complete the course tasks. You may additionally demonstrate results from other models on the same tasks and provide a comparative analysis. Choose your own interaction interface and model viewer; a custom 3D renderer is not required. Record software and model versions, run generated code in a restricted environment, and set an execution timeout.
 
 ## Submission
 

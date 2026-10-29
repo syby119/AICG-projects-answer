@@ -31,12 +31,12 @@ uv run python demo.py install
 复制 `.env.example` 为 `.env`，填写：
 
 ```dotenv
-LLM_BASE_URL=https://api.deepseek.com/v1
-LLM_MODEL=deepseek-v4-pro
+LLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4
+LLM_MODEL=glm-5.3-flash
 LLM_API_KEY=你的密钥
 ```
 
-可换成服务商实际支持的 OpenAI 兼容接口和模型 ID。启动脚本从 `.env` 加载密钥，仅把环境变量名写入 OpenCode 配置；不要提交 `.env`。
+课程任务规定使用 **GLM-5.3-Flash**，请填写智谱开放平台对应的 API 密钥；其他服务商的密钥不能用于此地址。也可以补充展示其他模型在相同任务上的效果，并进行对比说明，但须保留 GLM-5.3-Flash 的任务结果。启动脚本从 `.env` 加载密钥，仅把环境变量名写入 OpenCode 配置；不要提交 `.env`。
 
 ## 4. 启动原生模型编辑器
 
